@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 
 raw_data = pd.read_csv('input/data.csv')
 
+print(raw_data['shot_made_flag'].head())
+
 #Extract undefined values:
 prediction_dataset = raw_data[raw_data['shot_made_flag'].isnull()]
 
@@ -13,8 +15,26 @@ test_data = raw_data[raw_data['shot_made_flag'].notnull()]
 #Clean non relevant columns
 test_data = test_data.drop(['game_event_id', 'game_id', 'team_id', 'team_name', 'shot_id', 'game_date', 'matchup'], axis=1)
 
-#Integer encoding
+#Label Encoding binary using get_dummies
+#test_data = pd.get_dummies(test_data,
+#                            columns=["action_type", "combined_shot_type", "period",
+#                                     "season", "shot_type", "shot_zone_area",
+#                                     "shot_zone_basic", "shot_zone_range", "opponent"])
 
+print(test_data.head())
+
+#lb_action_type = LabelEncoder()
+#test_data["action_type_code"] = lb_action_type.fit_transform(test_data["action_type"])
+#print(test_data[["action_type", "action_type_code"]].head(11))
+
+#lb_style = LabelBinarizer()
+#lb_results = lb_style.fit_transform(test_data["action_type"])
+#ggg = pd.DataFrame(lb_results, columns=lb_style.classes_).head()
+#print(ggg)
+
+
+'''
+#Encode categorical data to integer
 test_data.action_type=test_data.loc[:,'action_type'].apply(lambda x :  np.where(x == test_data.action_type.unique())[0][0])
 test_data.combined_shot_type=test_data.loc[:,'combined_shot_type'].apply(lambda x :  np.where(x == test_data.combined_shot_type.unique())[0][0])
 test_data.lat=test_data.loc[:,'lat'].apply(lambda x :  np.where(x == test_data.lat.unique())[0][0])
@@ -32,16 +52,17 @@ test_data.shot_zone_area=test_data.loc[:,'shot_zone_area'].apply(lambda x :  np.
 test_data.shot_zone_basic=test_data.loc[:,'shot_zone_basic'].apply(lambda x :  np.where(x == test_data.shot_zone_basic.unique())[0][0])
 test_data.shot_zone_range=test_data.loc[:,'shot_zone_range'].apply(lambda x :  np.where(x == test_data.shot_zone_range.unique())[0][0])
 test_data.opponent=test_data.loc[:,'opponent'].apply(lambda x :  np.where(x == test_data.opponent.unique())[0][0])
-
-
+'''
 
 
 print('Column count after cleanup: ' + str(len(test_data.columns)))
 print('Row count after cleanup: ' + str(len(test_data.index)))
 
+#print('Test data prepared:')
+#print(test_data)
 
-print('Test data prepared:')
-print(test_data)
+#prediction_dataset.to_csv('input/prediction_dataset.csv')
+#test_data.to_csv('input/test_data.csv')
 
 #input.to_csv('output/output.csv')
 #plt.interactive(False)
