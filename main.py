@@ -20,7 +20,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import SGDClassifier
 
-#Set desired print width in InteliJ
+#InteliJ configure desired print width
 desired_width = 500
 pd.set_option('display.width', desired_width)
 np.set_printoptions(linewidth=desired_width)
@@ -28,20 +28,25 @@ np.set_printoptions(linewidth=desired_width)
 #Resolve warings
 pd.options.mode.chained_assignment = None
 
-'''
 #Read input data from csv file
 raw_data = pd.read_csv('input/data.csv')
 
+#Clean irelevant columns
+raw_data = raw_data.drop(['game_event_id', 'game_id', 'team_id', 'team_name', 'game_date', 'matchup'], axis=1)
+
+#Label Encoding to binary using get_dummies
+raw_data = pd.get_dummies(raw_data,
+                           columns=["action_type", "combined_shot_type", "period", "season",
+                                    "shot_type", "shot_zone_area", "shot_zone_basic", "shot_zone_range", "opponent"])
+
 #Create dataset for prediction for final submission
-prediction_dataset = raw_data[raw_data['shot_made_flag'].isnull()]
+test_data = raw_data[raw_data['shot_made_flag'].isnull()]
 
 #Create train/test dataset where shot_made_flag not null 
-test_data = raw_data[raw_data['shot_made_flag'].notnull()]
-test_data.shot_made_flag = test_data['shot_made_flag'].astype(np.int64)
+training_data = raw_data[raw_data['shot_made_flag'].notnull()]
+#test_data.shot_made_flag = test_data['shot_made_flag'].astype(np.int64)
+training_data = training_data.drop(['shot_id'], axis=1)
 
-#Clean irelevant columns
-test_data = test_data.drop(['game_event_id', 'game_id', 'team_id', 'team_name', 'shot_id', 'game_date', 'matchup'], axis=1)
-'''
 '''
 #Feature selection (choosing which features can be dropped)
 #Temporary encode categorical data to integer for feature selection
@@ -63,40 +68,37 @@ test_data.shot_zone_basic=test_data.loc[:,'shot_zone_basic'].apply(lambda x :  n
 test_data.shot_zone_range=test_data.loc[:,'shot_zone_range'].apply(lambda x :  np.where(x == test_data.shot_zone_range.unique())[0][0])
 test_data.opponent=test_data.loc[:,'opponent'].apply(lambda x :  np.where(x == test_data.opponent.unique())[0][0])
 
+#test_data  = pd.read_csv('input/test_data_label_encoded.csv')
+
 Y = test_data['shot_made_flag']
 X = test_data.drop('shot_made_flag', axis=1)
 
-model = LogisticRegression()
-rfe = RFE(model, 10)
-fit = rfe.fit(X, Y)
+model = RandomForestClassifier()
+rfe_model = RFE(model, 10, step=1)
+rfe_model = rfe_model.fit(X, Y)
 
-print(fit.n_features_)
-print(fit.ranking_)
-print(fit.support_)
-'''
+print('Num features: ' + str(rfe_model.n_features_))
+print('Feature rainkins: ' + str(rfe_model.ranking_))
+print('Feature support: ' + str(rfe_model.support_))
 
-test_data  = pd.read_csv('input/test_data_label_encoded.csv')
+#test_data  = pd.read_csv('input/test_data_label_encoded.csv')
 
 #Clean irelevant columns after feature selection (drop: lat, lon, loc_x, loc_y, seconds_remaining, opponent)
 test_data = test_data.drop(['lat', 'loc_x', 'loc_y', 'lon', 'seconds_remaining', 'opponent'], axis=1)
-
-#Label Encoding to binary using get_dummies
-test_data = pd.get_dummies(test_data,
-                           columns=["action_type", "combined_shot_type", "period", "season",
-                                    "shot_type", "shot_zone_area", "shot_zone_basic", "shot_zone_range"])
+'''
 
 #Split data training/testing
-test_data.drop('ggg', axis=1)
+#test_data.drop('ggg', axis=1)z
 #Data with just 'shot_made_flag'
-Y = test_data['shot_made_flag']
+Y_train_data = training_data['shot_made_flag']
 #Data with features/attributes without 'shot_made_flag'
-X_test_data = test_data.drop('shot_made_flag', axis=1)
+X_train_data = training_data.drop('shot_made_flag', axis=1)
 
+'''
 #Splitting data
-X_train, X_test, y_train, y_test = train_test_split(X_test_data, Y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X_train_data, Y_train_data, test_size=0.25)
 
 #Testing different classifiers
-
 # Linear Regression
 #model = LinearRegression().fit(X_train, y_train)
 # Logistic Regression
@@ -104,7 +106,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_test_data, Y, test_size=0.
 # Decision Tree
 #model = DecisionTreeClassifier(min_samples_split=3000, random_state=99).fit(X_train, y_train)
 # Random Forest
-model = RandomForestClassifier(n_estimators=100, max_features='auto', warm_start=True, max_depth=10).fit(X_train, y_train)
+model = RandomForestClassifier(n_estimators=100, max_features='auto', warm_start=True, max_depth=10)
 # Extreemly Randomized Trees
 #model = ExtraTreesClassifier(n_estimators=200, max_features=30).fit(X_train, y_train)
 # Multi Layer Perceptron
@@ -118,45 +120,35 @@ model = RandomForestClassifier(n_estimators=100, max_features='auto', warm_start
 # XGBoost
 #model = XGBClassifier().fit(X_train, y_train).fit(X_train, y_train)
 
+model = RFE(model, 80, step=1)
+model = model.fit(X_train, y_train)
 
-#rfe = RFE(LogisticRegression(), 17)
-#rfe.fit(X_train, y_train)
+print('Toral features: ' + str(len(X_train_data.columns)) + ' Num features after selection: ' + str(model.n_features_))
+print ('Model Score: ' + str(model.score(X_test, y_test)))
 
-print ("Score:" + str(model.score(X_test, y_test)))
+#print('Count of all params: ' + str(len(X.columns)))
+#print('fit.get_params() count: ' + str(len(fit.get_params())))
+#print('Print parameters: ' + str(fit.get_params()))
 
-# Perform 6-fold cross validation
-scores = cross_val_score(model, X_test_data, Y, cv=10)
-print ("Cross validated score:")
-print(scores)
-print('Mean: ' + str(np.mean(scores)))
+# Perform 10-fold cross validation
+scores = cross_val_score(model, X_test, y_test, cv=10)
+print ("Cross validation individual scores: " + str(scores))
+print('Cross validation mean score: ' + str(np.mean(scores)))
+'''
+#Create final model submission csv
 
-#print(len(train))
-#print(len(test))
+print('Training final model on all data')
+final_model = RandomForestClassifier(n_estimators=100, max_features='auto', warm_start=True, max_depth=10)
+final_model = RFE(final_model, 80, step=1)
+final_model = final_model.fit(X_train_data, Y_train_data)
 
-#print('Shape train' + str(train.shape))
-#print('Shape test' + str(test.shape))
+ID=test_data["shot_id"]
+test_data = test_data.drop(["shot_id","shot_made_flag"], axis=1)
 
-#print('TEST 1 2 3 4 5 6 7 8 9 10')
-#print(test_data.dtypes)
+y_test_data = final_model.predict(test_data)
+print('y_test_data' + str(y_test_data))
 
+final_submission=pd.DataFrame({"shot_id":ID,"shot_made_flag":y_test_data})
+final_submission.to_csv('output/submission.csv', index=False)
 
-# prepare cross validation
-#kfold = KFold(10)
-
-# enumerate splits
-#for train, eval in kfold.split(test_data):
-#    print('train indexes: %s, eval indexes: %s' % (test_data.iloc[train,:], test_data.iloc[eval, :]))
-
-#print('Column count after cleanup: ' + str(len(test_data.columns)))
-#print('Row count after cleanup: ' + str(len(test_data.index)))
-
-#print('Test data prepared:')
-#print(test_data)
-
-#prediction_dataset.to_csv('input/prediction_dataset.csv')
-#test_data.to_csv('input/test_data.csv')
-
-#input.to_csv('output/output.csv')
-#plt.interactive(False)
-#print raw_input.plot(figsize=(30, 30))
-#plt.show()
+print('Program execution completed')
