@@ -25,20 +25,22 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 |sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
 |xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
 
-Once you [install python and python-pip](https://www.makeuseof.com/tag/install-pip-for-python/) use pippip install pandas sklearn xgboost
+Once you [install python and python-pip](https://www.makeuseof.com/tag/install-pip-for-python/) use pip to install other dependencies: 
+
+    pip install pandas sklearn xgboost
 
 Running
 python main.py
 
 
 
-pip install sklearn  
+  
 pip install sklearn.cross_validation  
 pip install cross_validation  
 pip install xgboost
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjY2NjI1MCwtMTU0NDAyMDYxNCwtMj
-E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
-OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
-MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
+eyJoaXN0b3J5IjpbLTgyODEzNjg1LC0xNTQ0MDIwNjE0LC0yMT
+U4ODM5NzQsLTM1MTc2NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5
+OTIsLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMy
+wzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIxMTldfQ==
 -->
