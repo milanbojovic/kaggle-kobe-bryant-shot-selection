@@ -9,18 +9,15 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
 ![Kobe Bryant jersey](https://storage.googleapis.com/kaggle-competitions/kaggle/5185/logos/front_page.png) 
 
+### Table of contents
+
+
 ### What is this repository for? 
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
   
-- [**Functional programming game development assignment**](#--functional-programming-game-development-assignment--)
-    + [**Assignment**](#--assignment--)
-    + [**Implementation details**](#--implementation-details--)
-    + [**How to run the game:**](#--how-to-run-the-game---)
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjgzNjY0MCwtMTQ1NTY2NjA5OCwxNj
-AxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3NzY4MjEx
-OV19
+eyJoaXN0b3J5IjpbLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMT
+YwMTU4NDAwMywzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIx
+MTldfQ==
 -->
