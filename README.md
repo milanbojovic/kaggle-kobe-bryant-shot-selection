@@ -10,6 +10,14 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 ![Kobe Bryant jersey](https://storage.googleapis.com/kaggle-competitions/kaggle/5185/logos/front_page.png) 
 
 ### Table of contents
+- [Kobe Bryant Shot Prediction](#kobe-bryant-shot-prediction)
+  * [Table of contents](#table-of-contents)
+  * [What is this repository for?](#what-is-this-repository-for-)
+  * [Reqirements](#reqirements)
+- [Usage](#usage)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ### What is this repository for? 
@@ -29,16 +37,16 @@ Once you [install python and python-pip](https://www.makeuseof.com/tag/install-p
 
     pip install pandas sklearn xgboost
 
-## Usage
+### Usage
 Run the app by executing following command in command line:
 
     python main.py
 
 Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for kaggle submission. 
 
-Full pdf report can be found here
+Full pdf report can be found [here](https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf). (it is written in Serbian language!)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzODMzOTQ0LC0xNzExNzkxNzM1LC0yMD
+eyJoaXN0b3J5IjpbMTMxNjI3OTMyLC0xNzExNzkxNzM1LC0yMD
 YwMTYxMDQ1LC0xNTQ0MDIwNjE0LC0yMTU4ODM5NzQsLTM1MTc2
 NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5OTIsLTEzMDM3NzU1NT
 IsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMywzMjU5ODk3MywzNTIx
