@@ -34,9 +34,11 @@ Run the app by executing following command in command line:
 
     python main.py
 
-Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for 
+Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for kaggle submission. 
+
+Enjoy...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM0NTQ5MjUsLTE1NDQwMjA2MTQsLT
+eyJoaXN0b3J5IjpbLTIwNjAxNjEwNDUsLTE1NDQwMjA2MTQsLT
 IxNTg4Mzk3NCwtMzUxNzY2MDY3LC00NzAzNjUyODcsLTEyNTY3
 NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2NjA5OCwxNjAxNTg0MD
 AzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3NzY4MjExOV19
