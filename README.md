@@ -16,8 +16,11 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
   
+  python
+  python pip
+pip install pandas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMT
-YwMTU4NDAwMywzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIx
-MTldfQ==
+eyJoaXN0b3J5IjpbMTg3NDExODk2NCwtMTMwMzc3NTU1MiwtMT
+Q1NTY2NjA5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMz
+MywtMTE3NzY4MjExOV19
 -->
