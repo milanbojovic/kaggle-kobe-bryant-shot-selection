@@ -18,9 +18,11 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
   
   python
   python pip
-pip install pandas
+pip install pandas sklearn 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDExODk2NCwtMTMwMzc3NTU1MiwtMT
+eyJoaXN0b3J5IjpbLTEyNTY3NTk5MiwtMTMwMzc3NTU1MiwtMT
 Q1NTY2NjA5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMz
 MywtMTE3NzY4MjExOV19
 -->
