@@ -15,7 +15,19 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
+
+
+- [**Functional programming game development assignment**](#--functional-programming-game-development-assignment--)
+    + [**Assignment**](#--assignment--)
+    + [**Implementation details**](#--implementation-details--)
+    + [**How to run the game:**](#--how-to-run-the-game---)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+|kolona1  |kolona2  |
+|--|--|
+| asdf |asdf  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTU4NDAwMywzMjU5ODk3MywzNTIxOT
-QzMzMsLTExNzc2ODIxMTldfQ==
+eyJoaXN0b3J5IjpbLTEyNDcwNTA4NTgsMTYwMTU4NDAwMywzMj
+U5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIxMTldfQ==
 -->
