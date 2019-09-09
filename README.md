@@ -29,18 +29,15 @@ Once you [install python and python-pip](https://www.makeuseof.com/tag/install-p
 
     pip install pandas sklearn xgboost
 
-Running
-python main.py
+## Usage
+Run the app by executing following command in command line:
 
+    python main.py
 
-
-  
-pip install sklearn.cross_validation  
-pip install cross_validation  
-pip install xgboost
+Program 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODEzNjg1LC0xNTQ0MDIwNjE0LC0yMT
-U4ODM5NzQsLTM1MTc2NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5
-OTIsLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMy
-wzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIxMTldfQ==
+eyJoaXN0b3J5IjpbMjA5NTU4Njg4MSwtMTU0NDAyMDYxNCwtMj
+E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
+OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
+MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
 -->
