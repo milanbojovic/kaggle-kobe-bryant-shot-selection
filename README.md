@@ -19,15 +19,15 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
 ### Reqirements
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)  python
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)  
   python pip
 pip install pandas sklearn xgboost
 
 Running
 python main.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MDIyODcwLC0zNTE3NjYwNjcsLTQ3MD
-M2NTI4NywtMTI1Njc1OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2
-MDk4LDE2MDE1ODQwMDMsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMT
-c3NjgyMTE5XX0=
+eyJoaXN0b3J5IjpbLTIxNTg4Mzk3NCwtMzUxNzY2MDY3LC00Nz
+AzNjUyODcsLTEyNTY3NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2
+NjA5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMzMywtMT
+E3NzY4MjExOV19
 -->
