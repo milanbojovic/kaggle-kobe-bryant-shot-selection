@@ -14,7 +14,7 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
   * [Table of contents](#table-of-contents)
   * [What is this repository for?](#what-is-this-repository-for-)
   * [Reqirements](#reqirements)
-- [Usage](#usage)
+  * [Usage](#usage)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -46,7 +46,7 @@ Program will take some time to complete, and when it's finished it will store pr
 
 Full pdf report can be found [here](https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf). (it is written in Serbian language!)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjI3OTMyLC0xNzExNzkxNzM1LC0yMD
+eyJoaXN0b3J5IjpbODIwMzMxMzkxLC0xNzExNzkxNzM1LC0yMD
 YwMTYxMDQ1LC0xNTQ0MDIwNjE0LC0yMTU4ODM5NzQsLTM1MTc2
 NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5OTIsLTEzMDM3NzU1NT
 IsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMywzMjU5ODk3MywzNTIx
