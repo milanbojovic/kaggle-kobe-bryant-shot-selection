@@ -7,7 +7,7 @@
 ### What is this repository for? 
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
- - Kaggle competition Kobe Bryant Shot selection
+ - It is solution for Kaggle competition "[Kobe Bryant Shot selection](https://www.kaggle.com/xvivancos/kobe-bryant-shot-selection)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg5MjIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTg4MDE1MTkzN119
 -->
