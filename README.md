@@ -3,7 +3,7 @@
 ## Kobe Bryant Shot Prediction
 This repository represents my solution for Kaggle competition: ["Kobe Bryant Shot selection"](https://www.kaggle.com/xvivancos/kobe-bryant-shot-selection).
 ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
-![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
+
 
 ![Kobe Bryant jersey](https://storage.googleapis.com/kaggle-competitions/kaggle/5185/logos/front_page.png) 
 
@@ -16,6 +16,6 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
 ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTE3OTI2OSwzMjU5ODk3MywzNTIxOT
+eyJoaXN0b3J5IjpbMTYwMTU4NDAwMywzMjU5ODk3MywzNTIxOT
 QzMzMsLTExNzc2ODIxMTldfQ==
 -->
