@@ -25,7 +25,7 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 |sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
 |xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
 
-Install dependenci
+Once you install python and  dependencies with following command
 pip install pandas sklearn xgboost
 
 Running
@@ -38,8 +38,8 @@ pip install sklearn.cross_validation
 pip install cross_validation  
 pip install xgboost
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjIxNTMzLC0xNTQ0MDIwNjE0LC0yMT
-U4ODM5NzQsLTM1MTc2NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5
-OTIsLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMy
-wzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIxMTldfQ==
+eyJoaXN0b3J5IjpbMTg1MTAxNDg3OCwtMTU0NDAyMDYxNCwtMj
+E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
+OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
+MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
 -->
