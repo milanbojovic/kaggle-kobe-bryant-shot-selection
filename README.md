@@ -16,6 +16,9 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
   
+
+### Reqirements
+
   python
   python pip
 pip install pandas sklearn xgboost
@@ -23,7 +26,8 @@ pip install pandas sklearn xgboost
 Running
 python main.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDM2NTI4NywtMTI1Njc1OTkyLC0xMz
-AzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMDMsMzI1OTg5
-NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
+eyJoaXN0b3J5IjpbLTM1MTc2NjA2NywtNDcwMzY1Mjg3LC0xMj
+U2NzU5OTIsLTEzMDM3NzU1NTIsLTE0NTU2NjYwOTgsMTYwMTU4
+NDAwMywzMjU5ODk3MywzNTIxOTQzMzMsLTExNzc2ODIxMTldfQ
+==
 -->
