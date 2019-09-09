@@ -34,10 +34,10 @@ Run the app by executing following command in command line:
 
     python main.py
 
-Program 
+Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTU4Njg4MSwtMTU0NDAyMDYxNCwtMj
-E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
-OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
-MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
+eyJoaXN0b3J5IjpbLTE4ODM0NTQ5MjUsLTE1NDQwMjA2MTQsLT
+IxNTg4Mzk3NCwtMzUxNzY2MDY3LC00NzAzNjUyODcsLTEyNTY3
+NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2NjA5OCwxNjAxNTg0MD
+AzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3NzY4MjExOV19
 -->
