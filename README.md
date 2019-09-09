@@ -16,24 +16,24 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
   
-|Requirement|img  |
+  ### 
+|Reqirements||
 |--|--|
 |pip|![PyPI - Python Version](https://img.shields.io/badge/python-pip-blue)|
 |python|![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)|
 |pandas|![PyPI - Python Version](https://img.shields.io/badge/python-pandas-blue)|
-|sklearn|  |
-|xgboost|  |
-|pip|  |
+|sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
+|xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
 
-### Reqirements
-Python pip    ![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue) ![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)
+
+Python pip     
 
 pip install pandas sklearn xgboost
 
 Running
 python main.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDY0MzMyNywtMTU0NDAyMDYxNCwtMj
+eyJoaXN0b3J5IjpbMTg3ODQyMDM4MiwtMTU0NDAyMDYxNCwtMj
 E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
 OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
 MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
