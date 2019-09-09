@@ -16,8 +16,8 @@ This repository represents my solution for Kaggle competition: ["Kobe Bryant Sho
 
  - This application is written for university purposes as part of machine learning exam. It was written in Python, It is used to demonstrate how accurate machine learning prediction can be. 
   
-  ### 
-|Reqirements||
+  ### Reqirements
+|Reqirement|Installation command|
 |--|--|
 |pip|![PyPI - Python Version](https://img.shields.io/badge/python-pip-blue)|
 |python|![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)|
@@ -32,8 +32,14 @@ pip install pandas sklearn xgboost
 
 Running
 python main.py
+
+166 pip install pandas  
+168 pip install sklearn  
+170 pip install sklearn.cross_validation  
+171 pip install cross_validation  
+173 pip install xgboost
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODQyMDM4MiwtMTU0NDAyMDYxNCwtMj
+eyJoaXN0b3J5IjpbMTgwNTk1ODgxOCwtMTU0NDAyMDYxNCwtMj
 E1ODgzOTc0LC0zNTE3NjYwNjcsLTQ3MDM2NTI4NywtMTI1Njc1
 OTkyLC0xMzAzNzc1NTUyLC0xNDU1NjY2MDk4LDE2MDE1ODQwMD
 MsMzI1OTg5NzMsMzUyMTk0MzMzLC0xMTc3NjgyMTE5XX0=
