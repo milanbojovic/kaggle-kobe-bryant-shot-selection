@@ -36,23 +36,11 @@ Run the app by executing following command in command line:
 
 Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for kaggle submission. 
 
-Enjoy...
-
-
-```
-[embed][https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf](https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf)[/embed]
-```
-```
-<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-```
+Full pdf report can be found here
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA3ODQwMjksLTE3MTE3OTE3MzUsLT
-IwNjAxNjEwNDUsLTE1NDQwMjA2MTQsLTIxNTg4Mzk3NCwtMzUx
-NzY2MDY3LC00NzAzNjUyODcsLTEyNTY3NTk5MiwtMTMwMzc3NT
-U1MiwtMTQ1NTY2NjA5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1
-MjE5NDMzMywtMTE3NzY4MjExOV19
+eyJoaXN0b3J5IjpbODMzODMzOTQ0LC0xNzExNzkxNzM1LC0yMD
+YwMTYxMDQ1LC0xNTQ0MDIwNjE0LC0yMTU4ODM5NzQsLTM1MTc2
+NjA2NywtNDcwMzY1Mjg3LC0xMjU2NzU5OTIsLTEzMDM3NzU1NT
+IsLTE0NTU2NjYwOTgsMTYwMTU4NDAwMywzMjU5ODk3MywzNTIx
+OTQzMzMsLTExNzc2ODIxMTldfQ==
 -->
