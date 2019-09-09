@@ -37,9 +37,19 @@ Run the app by executing following command in command line:
 Program will take some time to complete, and when it's finished it will store prediction results in *"output/submission.csv"*. This file is ready for kaggle submission. 
 
 Enjoy...
+
+
+```
+<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://yoursite.com/the.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAxNjEwNDUsLTE1NDQwMjA2MTQsLT
-IxNTg4Mzk3NCwtMzUxNzY2MDY3LC00NzAzNjUyODcsLTEyNTY3
-NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2NjA5OCwxNjAxNTg0MD
-AzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3NzY4MjExOV19
+eyJoaXN0b3J5IjpbLTE3MTE3OTE3MzUsLTIwNjAxNjEwNDUsLT
+E1NDQwMjA2MTQsLTIxNTg4Mzk3NCwtMzUxNzY2MDY3LC00NzAz
+NjUyODcsLTEyNTY3NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2Nj
+A5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3
+NzY4MjExOV19
 -->
