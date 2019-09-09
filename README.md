@@ -40,6 +40,9 @@ Enjoy...
 
 
 ```
+[embed][https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf](https://github.com/milanbojovic/kaggle-kobe-bryant-shot-selection/blob/master/Report.pdf)[/embed]
+```
+```
 <object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="http://yoursite.com/the.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
@@ -47,9 +50,9 @@ Enjoy...
 </object>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE3OTE3MzUsLTIwNjAxNjEwNDUsLT
-E1NDQwMjA2MTQsLTIxNTg4Mzk3NCwtMzUxNzY2MDY3LC00NzAz
-NjUyODcsLTEyNTY3NTk5MiwtMTMwMzc3NTU1MiwtMTQ1NTY2Nj
-A5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1MjE5NDMzMywtMTE3
-NzY4MjExOV19
+eyJoaXN0b3J5IjpbLTEzOTA3ODQwMjksLTE3MTE3OTE3MzUsLT
+IwNjAxNjEwNDUsLTE1NDQwMjA2MTQsLTIxNTg4Mzk3NCwtMzUx
+NzY2MDY3LC00NzAzNjUyODcsLTEyNTY3NTk5MiwtMTMwMzc3NT
+U1MiwtMTQ1NTY2NjA5OCwxNjAxNTg0MDAzLDMyNTk4OTczLDM1
+MjE5NDMzMywtMTE3NzY4MjExOV19
 -->
