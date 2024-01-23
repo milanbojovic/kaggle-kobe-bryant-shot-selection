@@ -1,10 +1,12 @@
 
 
-## Kobe Bryant Shot Prediction
+## Machine Learning: Kobe Bryant Shot Outcome Prediction
 This repository represents my solution for Kaggle competition: ["Kobe Bryant Shot selection"](https://www.kaggle.com/xvivancos/kobe-bryant-shot-selection). 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/kaggle-kobe-bryant-shot-selection) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
+09/2019
+Participated in a Kaggle competition to predict the success of basketball shots taken by Kobe Bryant. The project involved preprocessing data, engineering features, and employing a Random Forest classifier for predictive modeling.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/kaggle-kobe-bryant-shot-selection) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 
 ![Kobe Bryant jersey](https://storage.googleapis.com/kaggle-competitions/kaggle/5185/logos/front_page.png) 
